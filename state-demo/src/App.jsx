@@ -1,7 +1,8 @@
 import "./App.css";
-import EmojiClicker from "./EmojiClicker";
+// import EmojiClicker from "./EmojiClicker";
 // import Counter from "./Counter";
 // import ScoreKeeper from "./ScoreKeeper";
+import ScoreKeeperEx from "./ScoreKeeperEx";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <h1>State Demo!</h1>
       {/* <Counter /> */}
       {/* <ScoreKeeper /> */}
-      <EmojiClicker />
+      {/* <EmojiClicker /> */}
+      <ScoreKeeperEx numPlayers={10} target={4} />
     </>
   );
 }
